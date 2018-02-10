@@ -483,6 +483,7 @@ values3 = [825594, 1677009, 1676628, 1523970, 943972, 97426,
 def main():
     print("practice-03")
     print(sq_gen.decode([1,0,0,0,1,1,0,0,1,0,1]))
+    print()
 
 if __name__ == '__main__':
     main()
