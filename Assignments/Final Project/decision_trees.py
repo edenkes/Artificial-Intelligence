@@ -85,7 +85,7 @@
 #   set. These examples will be used to evaluate the final accuracy of a
 #   learned classifier.
 
-# Let us import these four files:
+# Let us import these for files:
 import math
 import random
 
@@ -93,7 +93,6 @@ from collections import defaultdict
 
 import play_tennis
 import contact_lenses
-import tit
 import titanic
 import votes
 import credit
@@ -1753,3 +1752,10 @@ def tests():
         print(24, accuracy(classifier_ctp, credit.valid))
     if accuracy(classifier_ctp, credit.test) != 0.9815950920245399:
         print(25, accuracy(classifier_ctp, credit.test))
+
+def main():
+    print("project")
+    print()
+
+if __name__ == '__main__':
+    main()
